@@ -1,0 +1,26 @@
+
+CREATE DATABASE tpo_distribuidas
+ON PRIMARY(
+	NAME = tpo_distribuidas,
+	FILENAME = 'C:\Program Files\Microsoft SQL Server\MSSQL12.MSSQLSERVER\MSSQL\DATA\tpo_distribuidas_dat.mdf',
+	SIZE = 5 MB,
+--	MAXSIZE = ,
+	FILEGROWTH = 1
+)
+LOG ON(
+	NAME = tpo_distribuidas_log,
+	FILENAME = 'C:\Program Files\Microsoft SQL Server\MSSQL12.MSSQLSERVER\MSSQL\DATA\tpo_distribuidas_log.ldf',
+	SIZE = 1 MB,
+	FILEGROWTH = 1
+)
+GO
+CREATE LOGIN tpo_distribuidas
+	WITH PASSWORD = 'tpo_distribuidas',
+	DEFAULT_DATABASE = tpo_distribuidas,
+	CHECK_EXPIRATION = OFF,
+	CHECK_POLICY = OFF
+GO
+use tpo_distribuidas
+GO	
+sp_changedbowner  tpo_distribuidas
+GO
