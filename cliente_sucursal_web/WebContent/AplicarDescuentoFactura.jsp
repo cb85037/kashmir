@@ -11,7 +11,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Aplicacion de Descuentos</title>
 </head>
-<body style="height: 369px; background-color: #F7F8E0">
+<body style="height: 369px; background-color: #2E9AFE">
 
 <%
 	DTO_Empleado emp = (DTO_Empleado)request.getAttribute("empleado");
@@ -21,7 +21,7 @@
 <h1 align = "center" >Facturación</h1>
 
 
-	<table cellspacing="3" cellpadding="3" border="2" width="500" style="width: 1215px; background-color: #F5ECCE; border-bottom-style: solid; border-top-style: solid; border-left-style: solid; border-right-style: solid">
+	<table cellspacing="3" cellpadding="3" border="2" width="500" style="width: 1215px; background-color: #BDBDBD; border-bottom-style: solid; border-top-style: solid; border-left-style: solid; border-right-style: solid">
 	<tr>
 		<td colspan="2" align="center" style="border-left-color: #000000; border-top-color: #000000; border-right-color: #000000; border-bottom-color: #000000; font-size: 24px"><b>Factura <%=" " + f.getNumero()%></b></td>
 		<td colspan="4"><b>Mesa <%=" " + f.getMesa().getNumero()%></b></td>
@@ -52,7 +52,7 @@
 	        	<input type ="hidden" name = "itemComanda" readonly ="readonly" value ="<%=aux.getId()%>">
 	        	<input type ="hidden" name = "legajo" readonly ="readonly" value ="<%=emp.getLegajo()%>">
 	        	<input type ="hidden" name = "nombre" readonly ="readonly" value ="<%=emp.getNombre()%>">
-	        	<input type="submit" value="Agregar" name="agregarDescuento" style="font-family:; font-style: normal; font-weight: bold; width: 203px; height: 30px; background-color: #F5ECCE">
+	        	<input type="submit" value="Agregar" name="agregarDescuento" style="font-family:; font-style: normal; font-weight: bold; width: 203px; height: 30px; background-color: #BDBDBD">
 		</td>
 		</form>
 	</tr>

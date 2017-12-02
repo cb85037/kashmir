@@ -60,28 +60,24 @@ public class RecursosRMI extends UnicastRemoteObject implements InterfazRemotaAd
 	}
 
 	
-	@Override
 	public List<DTO_Receta> listarRecetas() throws RemoteException{
 		Gestor_Receta rm= Gestor_Receta.getInstancia();
 		List<DTO_Receta> recetas = rm.listarRecetas();
 		return recetas;
 	}
 
-	@Override
 	public List<DTO_RubroCarta> listarPlatosRubro(DTO_Empleado emp) throws RemoteException {
 		Gestor_Plato pm= Gestor_Plato.getInstancia();
 		List<DTO_RubroCarta> platos = pm.listarPlatosRubro(emp);
 		return platos;
 	}
 
-	@Override
 	public List<DTO_Local> listarSucursales() throws RemoteException {
 		List<DTO_Local> sucursales = Gestor_Local.getInstancia().listarSucursales();
 		
 		return sucursales;
 	}
 
-	@Override
 	public List<DTO_Tarea> listarTareasActivas() throws RemoteException {
 		List<DTO_Tarea> tareas = Gestor_Tarea.getInstancia().listarTareasActivas();
 		

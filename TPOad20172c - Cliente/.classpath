@@ -2,20 +2,21 @@
 <classpath>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="C:/Users/Juarezun/eclipse-workspace/jars/antlr-2.7.6.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Juarezun/eclipse-workspace/jars/commons-collections-3.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Juarezun/eclipse-workspace/jars/commons-logging-1.1.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Juarezun/eclipse-workspace/jars/dom4j-1.6.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Juarezun/eclipse-workspace/jars/ejb3-persistence.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Juarezun/eclipse-workspace/jars/hibernate3.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Juarezun/eclipse-workspace/jars/hibernate-annotations.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Juarezun/eclipse-workspace/jars/hibernate-commons-annotations.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Juarezun/eclipse-workspace/jars/javassist-3.4.GA.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Juarezun/eclipse-workspace/jars/jta-1.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Juarezun/eclipse-workspace/jars/jtds-1.2.5.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Juarezun/eclipse-workspace/jars/slf4j-api-1.5.6.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Juarezun/eclipse-workspace/jars/slf4j-simple-1.5.6.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Juarezun/eclipse-workspace/jars/swingx-0.9.2.jar"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/TPOad20172c - Repositorio"/>
+	<classpathentry kind="lib" path="C:/Users/Juano/Downloads/TP hecho completo/01_Server/antlr-2.7.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Juano/Downloads/TP hecho completo/01_Server/commons-collections-3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Juano/Downloads/TP hecho completo/01_Server/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Juano/Downloads/TP hecho completo/01_Server/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Juano/Downloads/TP hecho completo/01_Server/ejb3-persistence.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Juano/Downloads/TP hecho completo/01_Server/hibernate3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Juano/Downloads/TP hecho completo/01_Server/hibernate-annotations.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Juano/Downloads/TP hecho completo/01_Server/hibernate-commons-annotations.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Juano/Downloads/TP hecho completo/01_Server/javassist-3.4.GA.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Juano/Downloads/TP hecho completo/01_Server/jta-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Juano/Downloads/TP hecho completo/01_Server/jtds-1.2.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Juano/Downloads/TP hecho completo/01_Server/mysql-connector-java-5.1.23-bin.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Juano/Downloads/TP hecho completo/01_Server/slf4j-api-1.5.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Juano/Downloads/TP hecho completo/01_Server/slf4j-simple-1.5.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Juano/Downloads/TP hecho completo/01_Client_AdministracionCentral/swingx-0.9.2.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

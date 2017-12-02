@@ -8,7 +8,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Cierre de caja</title>
 </head>
-<body style="background-color: #F7F8E0">
+<body style="background-color: #2E9AFE">
 
 
 <%
@@ -21,9 +21,9 @@
 <form action="CajeroServlet?action=opcionVolver" method ="post">
       <input type ="hidden" name = "nombre" readonly ="readonly" value ="<%=emp.getNombre()%>">
 	  <input type ="hidden" name = "legajo" readonly ="readonly" value ="<%=emp.getLegajo()%>">
-	  <input type="submit" value="Menú" name="opcionVolver" style="font-family:; font-style: normal; font-weight: bold; width: 203px; height: 30px; background-color: #F7F8E0">
+	  <input type="submit" value="Menú" name="opcionVolver" style="font-family:; font-style: normal; font-weight: bold; width: 203px; height: 30px; background-color: #BDBDBD">
 </form>
-<input type = "text" name = "nombre" readonly ="readonly" value ="<%=emp.getNombre()%>"><input type="text" name="legajo" readonly="readonly" value="<%=emp.getLegajo()%>"></td>
+<input type = "text" name = "nombre" readonly ="readonly" value ="<%=emp.getNombre()%>"><input type="text" name="legajo" readonly value="<%=emp.getLegajo()%>"></td>
 </td>
 
 
@@ -44,7 +44,7 @@
 	        </b><b><input type="hidden" name="action" value="cerrarCajaDiaria"></b><b>
 	        <input type ="hidden" name = "nombre" readonly ="readonly" value ="<%=emp.getNombre()%>">
 	        <input type ="hidden" name = "legajo" readonly ="readonly" value ="<%=emp.getLegajo()%>">
-	        </b><b><input type="submit" value="Cerrar Caja Diaria" name="validar" style="font-family:; font-style: normal; font-weight: bold; width: 133px; height: 30px; background-color: #F5ECCE"></b><b>
+	        </b><b><input type="submit" value="Cerrar Caja Diaria" name="validar" style="font-family:; font-style: normal; font-weight: bold; width: 133px; height: 30px; background-color: #BDBDBD"></b><b>
         </b></td><b>
 
     </b></tr><b> 

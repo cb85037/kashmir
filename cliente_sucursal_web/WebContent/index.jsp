@@ -6,18 +6,19 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Login</title>
 </head>
-<body>
-<h2>Ingreso al Sistema</h2>
+<body style="background-color: #81BEF7;text-align:center;">
+<h2 style="font-family:verdana;" >Bienvenido a Alles Gute Wurst </h2> 
+<p style="font-family:courier;">Por favor, ingrese su usuario y su contrase&ntilde;a para poder acceder al sistema</p>
 
 <form>
-<table border = "4" width = "22%">
+<table border = "4" width = "100%" style="background-color:#F5DA81;">
 
 	<tr>
-		<td colspan="2" align="center"><b>Usuario</b> </td>
-		<td><input type = "text" name = "usuario"></td>
+		<td colspan="2" align="left"><b>Usuario</b> </td>
+		<td width="90%"><input type = "text" name = "usuario"></td>
 	</tr>
 	<tr>
-		<td colspan="2" align="center"><b>Password</b> </td>
+		<td colspan="2" align="left"><b>Password</b> </td>
 		<td><input type = "password" name = "password"></td>
 	</tr>
 	 <tr>
@@ -27,13 +28,6 @@
 		</td>  
     </tr> 
 </table>
-
-
-
-
 </form>
-
-
-
 </body>
 </html>

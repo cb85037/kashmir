@@ -12,9 +12,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Insert title here</title>
 </head>
-<body style="height: 369px; background-color: #F7F8E0">
-
-<%
+<body style="height: 369px; background-color: #2E9AFE"><%
 	DTO_Empleado emp = (DTO_Empleado)request.getAttribute("empleado");
 	List<DTO_Comanda> c = (List<DTO_Comanda>)request.getAttribute("comandas");
 %>
@@ -22,16 +20,16 @@
  <form action="EmpleadoServlet?action=opcionVolverP" method ="post">
         <input type ="hidden" name = "nombre" readonly ="readonly" value ="<%=emp.getNombre()%>">
 	    <input type ="hidden" name = "legajo" readonly ="readonly" value ="<%=emp.getLegajo()%>">
-	    <input type="submit" value="Menú" name="opcionVolver" style="font-family:; font-style: normal; font-weight: bold; width: 203px; height: 30px; background-color: #F5ECCE">
+	    <input type="submit" value="Menú" name="opcionVolver" style="font-family:; font-style: normal; font-weight: bold; width: 203px; height: 30px; background-color: #BDBDBD">
 </form>
-<input type = "text" name = "nombre" readonly ="readonly" value ="<%=emp.getNombre()%>"><input type="text" name="legajo" readonly="readonly" value="<%=emp.getLegajo()%>"></td>
+<input type = "text" name = "nombre" readonly ="readonly" value ="<%=emp.getNombre()%>"><input type="text" name="legajo" readonly value="<%=emp.getLegajo()%>"></td>
 </td>
 	      
 
 
 <h1 align = "center">Comandas Pendientes en Barra</h1>
 
-	<table cellspacing="3" cellpadding="3" border="2" width="500" style="width: 1215px; background-color: #F5ECCE; border-bottom-style: solid; border-top-style: solid; border-left-style: solid; border-right-style: solid">
+	<table cellspacing="3" cellpadding="3" border="2" width="500" style="width: 1215px; background-color: #A9D0F5; border-bottom-style: solid; border-top-style: solid; border-left-style: solid; border-right-style: solid">
 	<tr>
 		<td colspan="4"><b>Comandas</b></td>
 	</tr>
@@ -70,7 +68,7 @@
 	        	<input type ="hidden" name = "legajo" readonly ="readonly" value ="<%=emp.getLegajo()%>">
 	        	<input type ="hidden" name = "nombre" readonly ="readonly" value ="<%=emp.getNombre()%>">
 	        	<input type ="hidden" name = "url" readonly ="readonly" value ="/BarraComanda.jsp">
-	        	<input type="submit" value="Realizar Pedido" name="prepararItemComanda" style="font-family:; font-style: normal; font-weight: bold; width: 203px; height: 30px; background-color: #F5ECCE">
+	        	<input type="submit" value="Realizar Pedido" name="prepararItemComanda" style="font-family:; font-style: normal; font-weight: bold; width: 203px; height: 30px; background-color: #BDBDBD">
         	</form>
 		
 		</td>
