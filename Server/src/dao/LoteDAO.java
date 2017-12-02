@@ -66,7 +66,7 @@ public class LoteDAO {
 		try {
 			t = s.beginTransaction();
 			Query q = s.createQuery("Select max(idLote) from Entity_Lote");
-			result = (int) q.uniqueResult();
+			result = (Integer)q.uniqueResult();
 			
 		} catch (Exception e) {
 			t.rollback();
