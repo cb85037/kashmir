@@ -14,7 +14,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Facturar</title>
 </head>
-<body style="height: 369px; background-color: #F7F8E0">
+<body style="height: 369px; background-color: #2E9AFE">
 
 <%
 	DTO_Empleado emp = (DTO_Empleado)request.getAttribute("empleado");
@@ -25,7 +25,7 @@
 <%
 	if(resp){
 %>
-	<table cellspacing="3" cellpadding="3" border="2" width="500" style="width: 1215px; background-color: #F5ECCE; border-bottom-style: solid; border-top-style: solid; border-left-style: solid; border-right-style: solid">
+	<table cellspacing="3" cellpadding="3" border="2" width="500" style="width: 1215px; background-color: #A9D0F5; border-bottom-style: solid; border-top-style: solid; border-left-style: solid; border-right-style: solid">
 	<tr>
 		<td colspan="4"><b>Factura <%=" " + f.getNumero()%></b></td>
 		<td colspan="4"><b>Mesa <%=" " + f.getMesa().getNumero()%></b></td>

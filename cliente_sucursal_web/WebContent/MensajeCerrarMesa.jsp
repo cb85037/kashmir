@@ -17,18 +17,18 @@
 %>
 
 <form action="EmpleadoServlet?action=opcionVolver" method ="post" style="width: 225px; height: 42px">
-	   	<input type="submit" value="Menú" name="opcionVolver" style="font-family:; font-style: normal; font-weight: bold; width: 146px; height: 30px; background-color: #F7F8E0">
+	   	<input type="submit" value="Menú" name="opcionVolver" style="font-family:; font-style: normal; font-weight: bold; width: 146px; height: 30px; background-color: #BDBDBD">
 		<input type ="hidden" name = "nombre" readonly ="readonly" value ="<%=emp.getNombre()%>">
 	    <input type ="hidden" name = "legajo" readonly ="readonly" value ="<%=emp.getLegajo()%>">
 </form>
-<input type="text" name="legajo" readonly="readonly" value="<%=emp.getLegajo()%>" style="width: 109px; ">
-<input align="right" type="text" name="nombre" readonly="readonly" value="<%=emp.getNombre()%>" style="width: 111px; ">
+<input type="text" name="legajo" readonly value="<%=emp.getLegajo()%>" style="width: 109px; ">
+<input align="right" type="text" name="nombre" readonly value="<%=emp.getNombre()%>" style="width: 111px; ">
 
 <%if(resp){ %>
 
-<h1 style="font-family:verdana; color: black;"  align="center">La Mesa se ha cerrado correctamente</h1>
+<h1 style="font-family:verdana; color: black;"  align="center">La Mesa se ha cerrado satisfactoriamente</h1>
 <%}else{ %>
-<h1 style="font-family:verdana; color: black;"  align="center">La Mesa no se pudo cerrar, verifique si no tiene comandas pendientes</h1>
+<h1 style="font-family:verdana; color: black;"  align="center">La Mesa no se ha podido cerrar, verifique si no tiene comandas pendientes!</h1>
 <%} %>
 
 
