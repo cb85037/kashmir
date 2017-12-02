@@ -6,12 +6,12 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Login</title>
 </head>
-<body style="background-color: #81BEF7;text-align:center;">
+<body style="background-color: #2E9AFE;text-align:center;">
 <h2 style="font-family:verdana;" >Bienvenido a Alles Gute Wurst </h2> 
 <p style="font-family:courier;">Por favor, ingrese su usuario y su contrase&ntilde;a para poder acceder al sistema</p>
 
 <form>
-<table border = "4" width = "100%" style="background-color:#F5DA81;">
+<table border = "4" width = "100%" style="background-color:#A9D0F5;">
 
 	<tr>
 		<td colspan="2" align="left"><b>Usuario</b> </td>

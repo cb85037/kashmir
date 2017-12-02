@@ -8,7 +8,7 @@
 <head>
 	<title>Despacho</title>
 </head>
-<body style="height: 369px; background-color: #F7F8E0">
+<body style="height: 369px; background-color: #2E9AFE">
 
 <%
 	DTO_Empleado emp = (DTO_Empleado)request.getAttribute("empleado");
@@ -16,14 +16,14 @@
 <form action="EmpleadoServlet?action=opcionVolverC" method ="post">
       <input type ="hidden" name = "nombre" readonly ="readonly" value ="<%=emp.getNombre()%>">
 	  <input type ="hidden" name = "legajo" readonly ="readonly" value ="<%=emp.getLegajo()%>">
-	   <input type="submit" value="Volver al Menú" name="opcionVolver" style="font-family:; font-style: normal; font-weight: bold; width: 203px; height: 30px; background-color: #F5ECCE">
+	   <input type="submit" value="Volver al Menú" name="opcionVolver" style="font-family:; font-style: normal; font-weight: bold; width: 203px; height: 30px; background-color: #BDBDBD">
 </form>
-<input type = "text" name = "nombre" readonly ="readonly" value ="<%=emp.getNombre() %>"><input type="text" name="legajo" readonly="readonly" value="<%=emp.getLegajo()%>"></td>
+<input type = "text" name = "nombre" readonly ="readonly" value ="<%=emp.getNombre() %>"><input type="text" name="legajo" readonly value="<%=emp.getLegajo()%>"></td>
 </td>
 
 
 
-<table cellspacing="3" cellpadding="3" border="2" width="500" style="width: 1215px; background-color: #F5ECCE; border-bottom-style: solid; border-top-style: solid; border-left-style: solid; border-right-style: solid">
+<table cellspacing="3" cellpadding="3" border="2" width="500" style="width: 1215px; background-color: #A9D0F5; border-bottom-style: solid; border-top-style: solid; border-left-style: solid; border-right-style: solid">
 	<tr>
 		<td colspan="4"><b>Movimientos</b></td>
 	</tr>
@@ -57,7 +57,7 @@
 	        	<input type ="hidden" name = "movimiento" readonly ="readonly" value ="<%=aux.getIdMovimiento()%>">
 	        	<input type ="hidden" name = "legajo" readonly ="readonly" value ="<%=emp.getLegajo()%>">
 	        	<input type ="hidden" name = "nombre" readonly ="readonly" value ="<%=emp.getNombre()%>">
-	        	<input type="submit" value="Despachar" name="despachar" style="font-family:; font-style: normal; font-weight: bold; width: 203px; height: 30px; background-color: #F5ECCE">
+	        	<input type="submit" value="Despachar" name="despachar" style="font-family:; font-style: normal; font-weight: bold; width: 203px; height: 30px; background-color: #BDBDBD">
         	</form>
 		
 		</td>

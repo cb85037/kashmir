@@ -21,9 +21,9 @@
 <form action="EmpleadoServlet?action=opcionVolverP" method ="post">
       <input type ="hidden" name = "nombre" readonly ="readonly" value ="<%=emp.getNombre()%>">
 	  <input type ="hidden" name = "legajo" readonly ="readonly" value ="<%=emp.getLegajo()%>">
-	  <input type="submit" value="Menú Principal" name="regresar" style="font-family:; font-style: normal; font-weight: bold; width: 203px; height: 30px; background-color: "#F7F8E0">
+	  <input type="submit" value="Menú Principal" name="regresar" style="font-family:; font-style: normal; font-weight: bold; width: 203px; height: 30px; background-color: "#BDBDBD">
 </form>
-<input type = "text" name = "nombre" readonly ="readonly" value ="<%=emp.getNombre()%>"><input type="text" name="legajo" readonly="readonly" value="<%=emp.getLegajo()%>"></td>
+<input type = "text" name = "nombre" readonly ="readonly" value ="<%=emp.getNombre()%>"><input type="text" name="legajo" readonly value="<%=emp.getLegajo()%>"></td>
 </td>
 
 
